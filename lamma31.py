@@ -77,14 +77,9 @@ def generate_response(question):
 generate_response("Name the 3rd President of Kenya?")
 generate_response("Tell me something interesting about Kenya?")
 
-prompt = """ “Sales is a science, underpinned by metrics and process.
-  Understanding and implementing this science creates recurring revenue.
-  The RevCat Method is built on the principle of sales as a science (SaaS) and annual recurring revenue (ARR)”:
-  According to the text above,
-  What is The RevCat Method """
+prompt = """ How does educating the citizen of Kenya help them know about their country and rights? """
 
-generate_response(prompt)
-generate_response("what is Revcat, Revenue Catalysts Limited?")
+generate_response(prompt) 
 generate_response('What is 10+58')
 generate_response('What is 11*58')
 generate_response('How can democracy be hijacked?')
